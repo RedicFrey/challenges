@@ -1,0 +1,24 @@
+Desafio: Conversor de Moedas CLI
+
+Crie um aplicativo de linha de comando (CLI) em Node.js que converte valores entre diferentes moedas (por exemplo, BRL, USD, EUR).
+
+Requisitos mínimos:
+
+Aceitar como entrada via terminal:
+Valor a ser convertido
+Moeda de origem (ex: BRL)
+Moeda de destino (ex: USD)
+Buscar a cotação mais recente na internet (utilize uma API gratuita, como exchangerate-api.com ou exchangerate.host).
+Exibir o valor convertido na tela.
+Permitir realizar várias conversões sem sair do programa.
+Extras (opcionais):
+
+Permitir salvar um histórico das conversões em um arquivo .json.
+Exibir as taxas de câmbio disponíveis.
+Permitir conversão para múltiplas moedas ao mesmo tempo.
+Interface de terminal estilizada com cores (ex: usando o pacote chalk).
+Dicas:
+
+Use readline ou inquirer para interação.
+Use axios ou node-fetch para buscar os dados da API.
+Use fs para salvar o histórico se quiser implementar o extra.
