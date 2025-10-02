@@ -1,0 +1,12 @@
+Desafio: Gerador de Senhas Fortes
+
+Crie um programa que gera senhas fortes e aleatórias.
+O programa deve receber como entrada:
+
+O tamanho desejado da senha (mínimo 8 caracteres).
+Se a senha deve conter letras maiúsculas, minúsculas, números e símbolos.
+Requisitos:
+
+A senha gerada deve ter pelo menos um caractere de cada tipo selecionado.
+Não pode repetir caracteres consecutivos iguais.
+Mostre a senha gerada e a força dela (fraca, média, forte) com base na quantidade de tipos utilizados e comprimento.
